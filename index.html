@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <title>Index do curso</title>
@@ -16,27 +16,78 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="content/css/style.css" />
   </head>
 
   <body>
-    <header>
-      <h1 class="text-center"> Curso BootStrap5 </h1>
-      <hr>
-      <nav class="text-center">
+    <header class="container my-5">
+      <h1 class="text-center">Curso BootStrap5</h1>
+      <hr />
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <nav class="nav nav-fill nav-pills gap-2 table-hover">
+            <a href="Aula 1" class="nav-link fs-5 text-bg-dark btn btn-dark ">link 1</a
+            ><a href="Aula 2" class="nav-link  fs-5 text-bg-dark">link 2</a
+            ><a href="Aula 3" class="nav-link  text-black">link 3</a
+            ><a href="Aula 4" class="nav-link">link 4</a
+            ><a href="Aula 5" class="nav-link">link 5</a
+            ><a href="Aula 6" class="nav-link">link 6</a
+            ><a href="Aula 7" class="nav-link">link 7</a
+            ><a href="Aula 8" class="nav-link">link 8</a
+            ><a href="Aula 9" class="nav-link">link 9</a
+            ><a href="Aula 10" class="nav-link">link 10</a>               
+          </nav>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <nav class="nav nav-fill nav-pills">
+            <a href="Aula 1" class="nav-link"> link 1</a
+            ><a href="Aula 2" class="nav-link">link 2</a
+            ><a href="Aula 3" class="nav-link">link 3</a
+            ><a href="Aula 4" class="nav-link">link 4</a
+            ><a href="Aula 5" class="nav-link">link 5</a
+            ><a href="Aula 6" class="nav-link">link 6</a
+            ><a href="Aula 7" class="nav-link">link 7</a
+            ><a href="Aula 8" class="nav-link">link 8</a
+            ><a href="Aula 9" class="nav-link">link 9</a
+            ><a href="Aula 10" class="nav-link">link 10</a>               
+          </nav>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <nav class="nav nav-fill nav-pills">
+            <a href="Aula 1" class="nav-link"> link 1</a
+            ><a href="Aula 2" class="nav-link">link 2</a
+            ><a href="Aula 3" class="nav-link">link 3</a
+            ><a href="Aula 4" class="nav-link">link 4</a
+            ><a href="Aula 5" class="nav-link">link 5</a
+            ><a href="Aula 6" class="nav-link">link 6</a
+            ><a href="Aula 7" class="nav-link">link 7</a
+            ><a href="Aula 8" class="nav-link">link 8</a
+            ><a href="Aula 9" class="nav-link">link 9</a
+            ><a href="Aula 10" class="nav-link">link 10</a>               
+          </nav>
+        </div>
+      </div>
+      
         
-        <a class="text-center btn bg-info rounded" href="Aulas/aula-4-sistemagrid.html">Aula 04</a>
-        <a class="text-center btn bg-info rounded" href="Aulas/aula-5-tipografia.html">Aula 05</a>
-        <a class="text-center btn bg-info rounded" href="../aula6/sistemagrid.html">Aula6</a>
-        <a class="text-center btn bg-info rounded" href="../aula7/formatacaodecolunasdelayout.html">Aula7</a>
-        <a class="text-center btn bg-info rounded" href="../aula8/tipografia.html">Aula8</a>
-        <a class="text-center btn bg-info rounded" href="../aula9/imagensefiguras.html">Aula9</a>
-        <a class="text-center btn bg-info rounded" href="../aula10/tabekas.html">Aula10</a>
-      </nav>
-      <hr>
+        
+        
+      <hr />
     </header>
-    <main>
-
-    </main>
+    <div>
+      
+    </div>
+    <main></main>
     <footer>
       <!-- place footer here -->
     </footer>
